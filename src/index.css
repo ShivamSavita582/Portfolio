@@ -1,0 +1,9 @@
+@import "tailwindcss";
+/* *{
+    color: white;
+} */
+ body{
+    background-image: url('https://media.istockphoto.com/id/170958625/photo/dark-blue-grunge-background.jpg?s=1024x1024&w=is&k=20&c=H2JxlRVMzQrtHNyfTlY5hsWWK2yOfDNYflKgS5Kp2zc=');
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
