@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import HeroImg from "../assets/shivambhai.png";
+import HeroImg from "../assets/ShivamImg.jpeg";
 import { FaDribbble,  FaLinkedinIn,  FaTwitter } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { CgMail } from "react-icons/cg";

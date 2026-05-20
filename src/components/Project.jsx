@@ -3,7 +3,10 @@ import { motion } from 'framer-motion'
 import { projects } from '../assets/assets'
 import ProjectCard from './ProjectCard'
 import { FaArrowRight } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 const Project = () => {
+
+    
   return (
     <motion.div
     initial={{ opacity: 0, y: 50 }}
@@ -25,7 +28,7 @@ const Project = () => {
                 }
             </div>
             <div className='text-center mt-12 '>
-                <a href="#" className=' text-white text-xl inline-flex items-center px-16 py-5 border border-purple-500 rounded-lg font-medium
+                <a  href="#" className=' text-white text-xl inline-flex items-center px-16 py-5 border border-purple-500 rounded-lg font-medium
                 transition-transform duration-300 hover:translatate-y-20'>
                     <span>View More Projects</span>
                     <FaArrowRight className='ml-2'/>

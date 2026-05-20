@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { aboutInfo, assets } from "../assets/assets";
-import Photo from '../assets/photo1.png'
+import Photo from '../assets/ShivamImg.jpeg'
 const About = () => {
   return (
     <motion.div
