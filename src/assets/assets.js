@@ -22,6 +22,7 @@ import Commerce from '../assets/commerce.png'
 import Grocery from '../assets/grocery.png'
 import Calculater from '../assets/calculater.png'
 import Scan from '../assets/scan.png'
+import { href } from "react-router-dom";
 export const assets = {
   profileImg,
 };
@@ -102,7 +103,8 @@ export const projects = [
     tech: ["HTML", "CSS", "JavaScript"],
     icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
     demo: "https://food-recipe-mu.vercel.app/",
-    code: "#",
+    code: "https://portfolio-tau-coral-net7ls3pn0.vercel.app/",
+  
   },
   {
     title: "Calculater Design",
@@ -113,8 +115,8 @@ export const projects = [
   
     tech: ["HTML", "CSS", "JavaScript"],
     icons: [FaVuejs, FaFire, FaCloud, FaDatabase],
-    demo: "#",
-    code: "#",
+    demo: "https://calculator-design-tjgm.vercel.app/",
+    code: "https://portfolio-tau-coral-net7ls3pn0.vercel.app/",
   },
   {
     title: "QR Generator",
@@ -135,8 +137,8 @@ export const projects = [
     image:PortFolio,
     tech: ["Reactjs", "Tailwind CSS", "Framer Motion", "Markdown"],
     icons: [FaReact, FaCloud],
-    demo: "#",
-    code: "#",
+    demo: "https://portfolio-tau-coral-net7ls3pn0.vercel.app/",
+    code: "",
   },
   {
     title: "Grocery Website",

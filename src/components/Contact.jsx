@@ -9,8 +9,17 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
+
+  const handleDownload = () => {
+    // Resume file public folder में है
+    const link = document.createElement("a");
+    link.href = "/shivam_resume.pdf";   // public/resume.pdf
+    link.download = "Shivam_Resume_pdf (1)"; // Download होने पर file का नाम
+    link.click();
+  };
 
 
   return (
@@ -97,7 +106,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-white font-semibold md:text-xl">Email</h3>
-                <p className="text-white md:text-xl">shivam@example.com</p>
+                <p className="text-white md:text-xl">shivamsavitamahewa7068@gmail.com</p>
               </div>
             </div>
             <div className="flex items-start">
@@ -106,7 +115,7 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-white font-semibold md:text-xl">Phone</h3>
-                <p className="text-white md:text-xl ">+91 xxxxxxxxx</p>
+                <p className="text-white md:text-xl ">+91 9198517600</p>
               </div>
             </div>
             <div className="pt-4 space-x-5 gap-10">
@@ -115,13 +124,13 @@ const Contact = () => {
               </h3>
               <div className="flex spaxe-x-4 md:gap-10 gap-5">
                 <a
-                  href="#"
+                  href="https://github.com/ShivamSavita582"
                   className="md:h-20 md:w-20 h-8 w-8 rounded-full bg-gray-700 flex justify-center items-center text-white hover:bg-purple-700 transition duration-300 "
                 >
                   <FaGithub className="text-3xl" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/shivam-savita-004a7225b/"
                   className="md:h-20 md:w-20 h-8 w-8 rounded-full bg-gray-700 flex justify-center items-center text-white hover:bg-purple-700 transition duration-300 "
                 >
                   <FaLinkedinIn className="text-3xl"  />
@@ -143,6 +152,7 @@ const Contact = () => {
               <div>
                 <button
                   type="submit"
+                  onClick={handleDownload}
                   className="w-full md:px-6 md:py-3 px-3 py-2
               bg-purple-500 mt-12 text-white rounded-lg hover:bg-purple-700 transition duration-300 cursor-pointer md:text-2xl font-semibold"
                 >
